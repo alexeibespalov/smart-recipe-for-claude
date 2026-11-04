@@ -15,6 +15,16 @@ The version lives in `desktop-extension/manifest.json`. `npm run build:claude --
 bumps it and writes `releases/smart-cooker-<new version>.mcpb`. Without `--bump` the build refuses to overwrite an
 existing release (`--force` rebuilds it). Add a line to `CHANGELOG.md` for each release.
 
+## Publish a GitHub release
+
+The README's download button points at `releases/latest/download/smart-cooker.mcpb`, so every release must attach the
+bundle under that exact, unversioned name:
+
+```bash
+cp claude/releases/smart-cooker-<version>.mcpb /tmp/smart-cooker.mcpb
+gh release create v<version> /tmp/smart-cooker.mcpb --title "Smart Cooker <version>" --notes "…" --latest
+```
+
 ## Install
 
 Double-click the newest `releases/smart-cooker-<version>.mcpb` (or drag it into **Settings → Extensions**) and click

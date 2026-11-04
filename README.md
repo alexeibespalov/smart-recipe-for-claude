@@ -40,9 +40,10 @@ does, with mode badges and time, temperature and speed chips. Light and dark the
 
 ## Install
 
-1. Download the newest [`claude/releases/smart-cooker-<version>.mcpb`](claude/releases/).
-2. Double-click it, or drag it into **Claude Desktop → Settings → Extensions**, and click **Install**. When updating,
-   remove the old Smart Cooker extension first.
+1. **[Download Smart Cooker for Claude Desktop](https://github.com/alexeibespalov/smart-recipe-for-claude/releases/latest/download/smart-cooker.mcpb)**
+   (`smart-cooker.mcpb`, always the latest [release](https://github.com/alexeibespalov/smart-recipe-for-claude/releases/latest)).
+2. Double-click the downloaded file, or drag it into **Claude Desktop → Settings → Extensions**, and click **Install**.
+   When updating, remove the old Smart Cooker extension first.
 3. In the extension's settings choose:
    - **Default cooker**: Monsieur Cuisine Smart or Thermomix
    - **Recipe language**: en-US, de-DE, fr-FR, it-IT, pl-PL or cs-CZ (you can still ask Claude for another language per
