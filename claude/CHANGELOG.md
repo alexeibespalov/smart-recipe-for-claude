@@ -2,6 +2,11 @@
 
 Released files live in `releases/` as `smart-cooker-<version>.mcpb`. Build with `npm run build:claude -- --bump patch|minor|major`.
 
+## 0.3.3 — 2026-11-04
+
+- Playwright is no longer pinned to an old release: the extension bundles the latest Playwright (1.64.1) instead of
+  1.60, which fixes install/launch trouble on machines that already have a newer Playwright or browser.
+
 ## 0.3.2 — 2026-10-27
 
 - The food-processor attachment is on by default (setting "I own the Monsieur Cuisine food processor
