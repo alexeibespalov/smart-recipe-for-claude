@@ -3,6 +3,14 @@
   "version": "0.1.0",
   "description": "TypeScript tools for retrieving, converting, and uploading smart-cooker recipes.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeibespalov/smart-recipe-for-claude.git"
+  },
+  "homepage": "https://github.com/alexeibespalov/smart-recipe-for-claude#readme",
+  "bugs": {
+    "url": "https://github.com/alexeibespalov/smart-recipe-for-claude/issues"
+  },
   "type": "module",
   "bin": {
     "smart-recipe": "./dist/cli/main.js",

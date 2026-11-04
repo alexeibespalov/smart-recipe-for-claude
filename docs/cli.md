@@ -99,14 +99,14 @@ OpenAI API usage may cost money, depending on your OpenAI account and the model 
 SmartRecipe is not published to the npm registry yet. Install it directly from GitHub:
 
 ```bash
-npm install -g github:gerkensm/smart-recipe
+npm install -g github:alexeibespalov/smart-recipe-for-claude
 smart-recipe --help
 ```
 
 To install a specific branch, tag, or commit:
 
 ```bash
-npm install -g github:gerkensm/smart-recipe#main
+npm install -g github:alexeibespalov/smart-recipe-for-claude#main
 ```
 
 This works because npm can install GitHub packages. During installation, npm runs the package build step and creates the CLI from the TypeScript source.
@@ -114,8 +114,8 @@ This works because npm can install GitHub packages. During installation, npm run
 ### Install from a local checkout
 
 ```bash
-git clone https://github.com/gerkensm/smart-recipe.git
-cd smart-recipe
+git clone https://github.com/alexeibespalov/smart-recipe-for-claude.git
+cd smart-recipe-for-claude
 npm install
 npm run build
 node dist/cli/main.js --help
@@ -561,7 +561,7 @@ This helps, but it is not a safety guarantee. Treat the generated recipe like a 
 
 ```bash
 # 1. Install
-npm install -g github:gerkensm/smart-recipe
+npm install -g github:alexeibespalov/smart-recipe-for-claude
 
 # 2. Run — SmartRecipe walks you through everything
 smart-recipe create "https://example.com/recipe"
